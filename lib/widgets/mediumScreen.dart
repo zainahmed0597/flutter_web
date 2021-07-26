@@ -8,9 +8,10 @@ class MediumScreen extends StatelessWidget {
     return Row(
       children: [
         Expanded(
+            flex: 1,
             child: Container(
-          color: Colors.red,
-        )),
+              color: Colors.cyan,
+            )),
         Expanded(
             flex: 5,
             child: Container(
